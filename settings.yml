@@ -1,0 +1,16 @@
+margin_top:
+  default: 0
+  type: string
+  description:
+    en: "Choose the distance in px from the header. Default value is 0px." 
+avatars_border_radius:
+  default: 50%
+  type: enum
+  choices:
+    - 0%
+    - 10%
+    - 20%
+    - 30%
+    - 40%
+  description:
+en: "Choose the border-radius of the avatars on the site. 
