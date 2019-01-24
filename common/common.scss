@@ -7,7 +7,7 @@
 
 .hljs-comment,
 .hljs-doctag {
-  color: dark-light-choose(#998, #bba);
+  color: dark-light-choose($comment_light, $comment_dark);
   font-style: italic;
 }
 
