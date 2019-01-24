@@ -1,8 +1,8 @@
 comment_light:
-  default: #998
+  default: "#998"
   description:
     en: "Light theme. Choose the color for comments" 
 comment_dark:
-  default: #bba
+  default: "#bba"
   description:
     en: "Dark theme. Choose the color for comments." 
