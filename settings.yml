@@ -1,16 +1,9 @@
-margin_top:
-  default: 0
-  type: string
+$comment_light, $comment_dark
+comment_light:
+  default: #998
   description:
-    en: "Choose the distance in px from the header. Default value is 0px." 
-avatars_border_radius:
-  default: 50%
-  type: enum
-  choices:
-    - 0%
-    - 10%
-    - 20%
-    - 30%
-    - 40%
+    en: "Light theme. Choose the color for comments" 
+comment_dark:
+  default: #bba
   description:
-en: "Choose the border-radius of the avatars on the site. 
+    en: "Dark theme. Choose the color for comments." 
