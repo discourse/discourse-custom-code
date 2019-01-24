@@ -1,4 +1,3 @@
-$comment_light, $comment_dark
 comment_light:
   default: #998
   description:
