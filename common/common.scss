@@ -1,8 +1,6 @@
-.lang-http.hljs
-.lang-javascript.hljs
 
 .hljs-comment, .hljs-doctag
-     color: dark-light-choose(#998, #bba);
+     color: dark-light-choose($comment_light, $comment_dark);
 .hljs-deletion (background)
 .hljs-addition (background)
 .hlj
