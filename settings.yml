@@ -1,11 +1,19 @@
 hljs_light:
   default: "#333"
   description:
-    en: "Light theme. Choose the color for texts."
+    en: "Light theme. Choose the color for texts" 
+code_light:
+  default: "333"
+  description:
+    en: "Light theme. Choose the color for codes"  
+code_background_light:
+  default: "#f8f8f8"
+  description:
+    en: "Light theme. Choose the background color for codes"      
 comment_light:
   default: "#998"
   description:
-    en: "Light theme. Choose the color for comments." 
+    en: "Light theme. Choose the color for comments" 
 title_light:
   default: "#d14"
   description:
@@ -39,9 +47,17 @@ symbol_light:
   description:
     en: "Light theme. Choose the color for symbols." 
 hljs_dark:
-  default: "f8f8f8"
+  default: "#f8f8f8"
   description:
     en: "Dark theme. Choose the color for texts."
+code_dark:
+  default: "#f8f8f8"
+  description:
+    en: "Dark theme. Choose the color for codes"      
+code_background_dark:
+  default: "#333"
+  description:
+    en: "Dark theme. Choose the background color for codes"      
 comment_dark:
   default: "#bba"
   description:
