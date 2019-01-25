@@ -37,7 +37,7 @@
 .hljs-name,
 .coffeescript .hljs-params,
 .scss .hljs-meta {
-  color: dark-light-choose(#d14, #f99);
+  color: dark-light-choose($title_light, $title_dark) !important;
   font-weight: bold;
 }
 
