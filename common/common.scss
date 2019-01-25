@@ -30,7 +30,7 @@
 .hljs-string,
 .hljs-tag .hljs-string,
 .tex .hljs-formula {
-  color: dark-light-choose(#d14, #f99);
+  color: dark-light-choose($string_light, $string_dark) !important;
 }
 
 .hljs-title,
