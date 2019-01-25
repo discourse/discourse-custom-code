@@ -1,7 +1,11 @@
+hljs_light:
+  default: "#333"
+  description:
+    en: "Light theme. Choose the color for texts."
 comment_light:
   default: "#998"
   description:
-    en: "Light theme. Choose the color for comments" 
+    en: "Light theme. Choose the color for comments." 
 title_light:
   default: "#d14"
   description:
@@ -34,6 +38,10 @@ symbol_light:
   default: "#990073"
   description:
     en: "Light theme. Choose the color for symbols." 
+hljs_dark:
+  default: "f8f8f8"
+  description:
+    en: "Dark theme. Choose the color for texts."
 comment_dark:
   default: "#bba"
   description:
