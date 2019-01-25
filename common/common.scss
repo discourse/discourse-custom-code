@@ -1,12 +1,14 @@
 @import "common/foundation/variables";
 
+$i: !important;
+
 .hljs {
-  color: dark-light-choose($hljs_light, $hljs_dark) !important;
+  color: dark-light-choose($hljs_light, $hljs_dark) $i;
 }
 
 .hljs-comment,
 .hljs-doctag {
-  color: dark-light-choose($comment_light, $comment_dark) !important;
+  color: dark-light-choose($comment_light, $comment_dark) $i;
 }
 
 .hljs-keyword,
@@ -15,25 +17,25 @@
 .hljs-subst,
 .hljs-request,
 .hljs-status {
-  color: dark-light-choose($keyword_light, $keyword_dark) !important;
+  color: dark-light-choose($keyword_light, $keyword_dark) $i;
 }
 
 .hljs-number,
 .ruby .hljs-constant {
-  color: dark-light-choose($number_light, $number_dark) !important;
+  color: dark-light-choose($number_light, $number_dark) $i;
 }
 
 .hljs-string,
 .hljs-tag .hljs-string,
 .tex .hljs-formula {
-  color: dark-light-choose($string_light, $string_dark) !important;
+  color: dark-light-choose($string_light, $string_dark) $i;
 }
 
 .hljs-title,
 .hljs-name,
 .coffeescript .hljs-params,
 .scss .hljs-meta {
-  color: dark-light-choose($title_light, $title_dark) !important;
+  color: dark-light-choose($title_light, $title_dark) $i;
 }
 
 //title inside class element
@@ -41,20 +43,20 @@
 .haskell .hljs-type,
 .vhdl .hljs-literal,
 .tex .hljs-command {
-  color: dark-light-choose($class_title_light, $class_title_dark) !important;
+  color: dark-light-choose($class_title_light, $class_title_dark) $i;
 }
 
 .hljs-tag,
 .hljs-tag .hljs-title,
 .django .hljs-tag .hljs-keyword {
-  color: dark-light-choose($tag_light, $tag_dark) !important;
+  color: dark-light-choose($tag_light, $tag_dark) $i;
 }
 
 .hljs-attribute,
 .css .hljs-keyword,
 .hljs-variable,
 .lisp .hljs-body {
-  color: dark-light-choose($attribute_light, $attribute_dark) !important;
+  color: dark-light-choose($attribute_light, $attribute_dark) $i;
 }
 
 .hljs-regexp {
@@ -66,7 +68,7 @@
 .lisp .hljs-keyword,
 .tex .hljs-special,
 .hljs-prompt {
-  color: dark-light-choose($symbol_light, $symbol_dark) !important;
+  color: dark-light-choose($symbol_light, $symbol_dark) $i;
 }
 
 .hljs-built_in,
@@ -91,3 +93,9 @@
 .diff .hljs-meta {
   color: $primary-low;
 }
+
+p > code,
+li > code,
+pre > code {
+  color: dark-light-choose($code_light, $code_dark) $i;
+  background: dark-light-choose($code_background_light, $code_background_dark) $i;
