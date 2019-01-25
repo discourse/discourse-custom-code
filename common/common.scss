@@ -1,7 +1,7 @@
 @import "common/foundation/variables";
 
 .hljs {
-  color: dark-light-choose(#333, #f8f8f8);
+  color: dark-light-choose($hljs_light, $hljs_dark) !important;
 }
 
 .hljs-comment,
