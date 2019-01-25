@@ -99,3 +99,4 @@ li > code,
 pre > code {
   color: dark-light-choose($code_light, $code_dark) $i;
   background: dark-light-choose($code_background_light, $code_background_dark) $i;
+}
