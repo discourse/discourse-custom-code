@@ -3,7 +3,7 @@ hljs_light:
   description:
     en: "Light theme. Choose the color for texts" 
 code_light:
-  default: "333"
+  default: "#333"
   description:
     en: "Light theme. Choose the color for codes"  
 code_background_light:
