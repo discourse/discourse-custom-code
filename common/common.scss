@@ -18,13 +18,13 @@
 .hljs-subst,
 .hljs-request,
 .hljs-status {
-  color: dark-light-choose(#333, #f8f8f8);
+  color: dark-light-choose($keyword_light, $keyword_dark) !important;
   font-weight: bold;
 }
 
 .hljs-number,
 .ruby .hljs-constant {
-  color: dark-light-choose(#099, #aff);
+  color: dark-light-choose($number_light, $number_dark) !important;
 }
 
 .hljs-string,
@@ -47,27 +47,26 @@
 .hljs-subst {
   font-weight: normal;
 }
-
+//title inside class element
 .hljs-class .hljs-title,
 .haskell .hljs-type,
 .vhdl .hljs-literal,
 .tex .hljs-command {
-  color: dark-light-choose(#458, #9ae);
+  color: dark-light-choose($class_title_light, $class_title_dark) !important;
   font-weight: bold;
 }
 
 .hljs-tag,
 .hljs-tag .hljs-title,
 .django .hljs-tag .hljs-keyword {
-  color: dark-light-choose(#000080, #99f);
-  font-weight: normal;
+  color: dark-light-choose($tag_light, $tag_dark) !important;
 }
 
 .hljs-attribute,
 .css .hljs-keyword,
 .hljs-variable,
 .lisp .hljs-body {
-  color: dark-light-choose(#008080, #0ee);
+  color: dark-light-choose($attribute_light, $attribute_dark) !important;
 }
 
 .hljs-regexp {
@@ -79,7 +78,7 @@
 .lisp .hljs-keyword,
 .tex .hljs-special,
 .hljs-prompt {
-  color: dark-light-choose(#990073, #fbe);
+  color: dark-light-choose($symbol_light, $symbol_dark) !important;
 }
 
 .hljs-built_in,
