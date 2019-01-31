@@ -106,3 +106,31 @@ pre > code {
   color: dark-light-choose($code_light, $code_dark) $i;
   background: dark-light-choose($code_background_light, $code_background_dark) $i;
 }
+
+// --------------------------------------------------------------- //
+
+/*
+.hljs-built_in,
+.lisp .hljs-title,
+.clojure .hljs-built_in,
+.hljs-builtin-name {
+  color: $tertiary-high;
+}
+
+.meta {
+  color: $primary-medium;
+  font-weight: bold;
+}
+
+.hljs-deletion {
+  background: $danger-low;
+}
+
+.hljs-addition {
+  background: $success-low;
+}
+
+.diff .hljs-meta {
+  color: $primary-low;
+}
+*/
