@@ -1,6 +1,6 @@
 {
   "name": "discourse custom code",
-  "about_url": "#",
-  "license_url": "#",
+  "about_url": "https://github.com/discourse/custom-code",
+  "license_url": "https://github.com/discourse/custom-code/blob/master/LICENSE",
   "component": true
 }
