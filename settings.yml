@@ -20,10 +20,6 @@ border:
   default: ""
   description:
     en: "Select how to customize the borders of your code. For example, '1 px solid #a6a6a6'. Leave it blank to keep the default setting."
-box_shadow:
-  default: ""
-  description:
-    en: "Add a box-shadow to your code. For example, '10px 6px 7px -7px rgba(0,0,0,0.84);'. Leave it blank to keep the default setting."
 hljs_light:
   default: "#333"
   description:
