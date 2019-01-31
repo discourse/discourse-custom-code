@@ -1,105 +1,105 @@
-setting:
+font:
   default: ""
   description:
-    en: "description"
+    en: "Select a new font from <a href="https://fonts.google.com/">Google font</a>. Depending on the chosen one, you can further customize the font, for example 'Sarabun:300,400,500'. If not set the default font will be applied."
 font_family:
   default: ""
   description:
-    en: "Choose a Google font for codes. If not set the default font will be applied."
+    en: "Specifies the font to use. If not set the default font will be applied."
 hljs_light:
   default: "#333"
   description:
-    en: "Light theme. Choose the color for texts" 
+    en: "Light theme. Choose the color for text" 
 code_light:
   default: "#333"
   description:
-    en: "Light theme. Choose the color for codes"  
+    en: "Light theme. Choose the color for code"  
 code_background_light:
   default: "#f8f8f8"
   description:
-    en: "Light theme. Choose the background color for codes"      
+    en: "Light theme. Choose the background color for code"      
 comment_light:
   default: "#998"
   description:
-    en: "Light theme. Choose the color for comments" 
+    en: "Light theme. Choose the color for comment and doctag." 
 title_light:
   default: "#d14"
   description:
-    en: "Light theme. Choose the color for titles and names." 
+    en: "Light theme. Choose the color for title, name and meta." 
 string_light:
   default: "#d14"
   description:
-    en: "Light theme. Choose the color for strings." 
+    en: "Light theme. Choose the color for string." 
 number_light:
   default: "#099"
   description:
-    en: "Light theme. Choose the color for numbers." 
+    en: "Light theme. Choose the color for number." 
 keyword_light:
   default: "#333"
   description:
-    en: "Light theme. Choose the color for keywords." 
+    en: "Light theme. Choose the color for keyword, subst, request, and status." 
 class_title_light:
   default: "#458"
   description:
-    en: "Light theme. Choose the color for titles inside the class element." 
+    en: "Light theme. Choose the color for the title inside the class element." 
 tag_light:
   default: "#000080"
   description:
-    en: "Light theme. Choose the color for tags." 
+    en: "Light theme. Choose the color for tag." 
 attribute_light:
   default: "#008080"
   description:
-    en: "Light theme. Choose the color for attributes." 
+    en: "Light theme. Choose the color for attribute." 
 symbol_light:
   default: "#990073"
   description:
-    en: "Light theme. Choose the color for symbols." 
+    en: "Light theme. Choose the color for symbol." 
 hljs_dark:
   default: "#f8f8f8"
   description:
-    en: "Dark theme. Choose the color for texts."
+    en: "Dark theme. Choose the color for text."
 code_dark:
   default: "#f8f8f8"
   description:
-    en: "Dark theme. Choose the color for codes"      
+    en: "Dark theme. Choose the color for code"      
 code_background_dark:
   default: "#333"
   description:
-    en: "Dark theme. Choose the background color for codes"      
+    en: "Dark theme. Choose the background color for code"      
 comment_dark:
   default: "#bba"
   description:
-    en: "Dark theme. Choose the color for comments."
+    en: "Dark theme. Choose the color for comment."
 title_dark:
   default: "#f99"
   description:
-    en: "Dark theme. Choose the color for titles and names." 
+    en: "Dark theme. Choose the color for title, name and meta." 
 string_dark:
   default: "#f99"
   description:
-    en: "Dark theme. Choose the color for strings."
+    en: "Dark theme. Choose the color for string."
 number_dark:
   default: "#aff"
   description:
-    en: "Dark theme. Choose the color for numbers."    
+    en: "Dark theme. Choose the color for number."    
 keyword_dark:
   default: "#f8f8f8"
   description:
-    en: "Dark theme. Choose the color for keywords."
+    en: "Dark theme. Choose the color for keyword, subst, request and status."
 class_title_dark:
   default: "#9ae"
   description:
-    en: "Dark theme. Choose the color for titles inside the class element."
+    en: "Dark theme. Choose the color for the title inside the class element."
 tag_dark:
   default: "#99f"
   description:
-    en: "Dark theme. Choose the color for tags." 
+    en: "Dark theme. Choose the color for tag." 
 attribute_dark:
   default: "#0ee"
   description:
-    en: "Dark theme. Choose the color for attributes."
+    en: "Dark theme. Choose the color for attribute."
 symbol_dark:
   default: "#fbe"
   description:
-    en: "Dark theme. Choose the color for symbols."    
+    en: "Dark theme. Choose the color for symbol."    
     
