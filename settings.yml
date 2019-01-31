@@ -1,3 +1,7 @@
+font:
+  default: ""
+  description:
+    en: "description"
 font_family:
   default: ""
   description:
