@@ -10,7 +10,6 @@ code, pre {
     font-size: #{$font_size};
     border-radius: #{$border_radius}px;
     border: #{$border};
-    box-shadow: #{$box_shadow};
 }
 .hljs {
   color: dark-light-choose($hljs_light, $hljs_dark) $i;
