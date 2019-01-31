@@ -1,7 +1,7 @@
 font_family:
   default: ""
   description:
-    en: "Choose a font for codes. If not set the default font will be applied."
+    en: "Choose a Google font for codes. If not set the default font will be applied."
 hljs_light:
   default: "#333"
   description:
