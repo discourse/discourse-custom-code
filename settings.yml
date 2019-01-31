@@ -1,7 +1,7 @@
 font:
   default: ""
   description:
-    en: "Select a new font from  If not set the default font will be applied."
+    en: "Select a new font from <a href="https://fonts.google.com">Google Font. Depending on the chosen one, you can further customize it, for example <b>Sarabun:300,400,500</b>  If not set the default font will be applied."
 font_family:
   default: ""
   description:
@@ -9,15 +9,15 @@ font_family:
 hljs_light:
   default: "#333"
   description:
-    en: "Light theme. Choose the color for text" 
+    en: "Light theme. Choose the color for text." 
 code_light:
   default: "#333"
   description:
-    en: "Light theme. Choose the color for code"  
+    en: "Light theme. Choose the color for code."  
 code_background_light:
   default: "#f8f8f8"
   description:
-    en: "Light theme. Choose the background color for code"      
+    en: "Light theme. Choose the background color for code."      
 comment_light:
   default: "#998"
   description:
@@ -61,11 +61,11 @@ hljs_dark:
 code_dark:
   default: "#f8f8f8"
   description:
-    en: "Dark theme. Choose the color for code"      
+    en: "Dark theme. Choose the color for code."      
 code_background_dark:
   default: "#333"
   description:
-    en: "Dark theme. Choose the background color for code"      
+    en: "Dark theme. Choose the background color for code."      
 comment_dark:
   default: "#bba"
   description:
