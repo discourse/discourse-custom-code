@@ -2,10 +2,28 @@ font:
   default: ""
   description:
     en: "Select a new font from <a href='https://fonts.google.com'>Google Font</a>. Depending on the chosen one, you can further customize it, for example <b>Sarabun:300,400,500</b>  If not set the default font will be applied."
+font_size:
+  default: "1em"
+  description:
+    en: Specifies the size of the font to use. If not set the default font will be applied.
 font_family:
   default: ""
   description:
     en: "Specifies the font to use. If not set the default font will be applied."
+border_radius:
+  default: ""
+  min: 0
+  max: 50
+  description:
+    en: "Select the border radious for your code. Default value is 0px."
+border:
+  default: ""
+  description:
+    en: "Select how to customize the borders of your code. For example, '1 px solid #a6a6a6'. Leave it blank to keep the default setting."
+box_shadow:
+  default: ""
+  description:
+    en: "Add a box-shadow to your code. For example, '10px 6px 7px -7px rgba(0,0,0,0.84);'. Leave it blank to keep the default setting."
 hljs_light:
   default: "#333"
   description:
