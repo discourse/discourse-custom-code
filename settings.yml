@@ -16,10 +16,6 @@ border_radius:
   max: 50
   description:
     en: "Select the border radious for your code. Default value is 0px."
-border:
-  default: ""
-  description:
-    en: "Select how to customize the borders of your code. For example, '1 px solid #a6a6a6'. Leave it blank to keep the default setting."
 hljs_light:
   default: "#333"
   description:
