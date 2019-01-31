@@ -1,7 +1,7 @@
 font:
   default: ""
   description:
-    en: "Select a new font from <a href='https://fonts.google.com'>Google Font</a>. Depending on the chosen one, you can further customize it, for example <b>Sarabun:300,400,500</b>  If not set the default font will be applied."
+    en: "Select a new font from <a href='https://fonts.google.com'>Google Font</a>. Depending on the chosen one, you can further customize it, for example <b>Sarabun:300,400,500</b>.  If not set the default font will be applied."
 font_size:
   default: "1em"
   description:
