@@ -1,14 +1,15 @@
 @import "common/foundation/variables";
-@import url('https://fonts.googleapis.com/css?family=#{$font}');
+@import url("https://fonts.googleapis.com/css?family=#{$font}");
 
 $i: !important;
 
 // --------------------------------------------------------------- //
 
-code, pre {
-    font-family: $font_family;
-    font-size: #{$font_size};
-    border-radius: #{$border_radius}px;
+code,
+pre {
+  font-family: $font_family;
+  font-size: #{$font_size};
+  border-radius: #{$border_radius}px;
 }
 .hljs {
   color: dark-light-choose($hljs_light, $hljs_dark) $i;
@@ -106,7 +107,8 @@ p > code,
 li > code,
 pre > code {
   color: dark-light-choose($code_light, $code_dark) $i;
-  background: dark-light-choose($code_background_light, $code_background_dark) $i;
+  background: dark-light-choose($code_background_light, $code_background_dark)
+    $i;
 }
 
 // --------------------------------------------------------------- //
