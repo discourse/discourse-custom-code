@@ -1,23 +1,21 @@
 @import "common/foundation/variables";
-@import url("https://fonts.googleapis.com/css?family=#{$font}");
-
-$i: !important;
+@import "https://fonts.googleapis.com/css?family=#{$font}";
 
 // --------------------------------------------------------------- //
-
 code,
 pre {
   font-family: $font_family;
   font-size: #{$font_size};
   border-radius: #{$border_radius}px;
 }
+
 .hljs {
-  color: dark-light-choose($hljs_light, $hljs_dark) $i;
+  color: dark-light-choose($hljs_light, $hljs_dark) !important;
 }
 
 .hljs-comment,
 .hljs-doctag {
-  color: dark-light-choose($comment_light, $comment_dark) $i;
+  color: dark-light-choose($comment_light, $comment_dark) !important;
 }
 
 .hljs-keyword,
@@ -26,46 +24,46 @@ pre {
 .hljs-subst,
 .hljs-request,
 .hljs-status {
-  color: dark-light-choose($keyword_light, $keyword_dark) $i;
+  color: dark-light-choose($keyword_light, $keyword_dark) !important;
 }
 
 .hljs-number,
 .ruby .hljs-constant {
-  color: dark-light-choose($number_light, $number_dark) $i;
+  color: dark-light-choose($number_light, $number_dark) !important;
 }
 
 .hljs-string,
 .hljs-tag .hljs-string,
 .tex .hljs-formula {
-  color: dark-light-choose($string_light, $string_dark) $i;
+  color: dark-light-choose($string_light, $string_dark) !important;
 }
 
 .hljs-title,
 .hljs-name,
 .coffeescript .hljs-params,
 .scss .hljs-meta {
-  color: dark-light-choose($title_light, $title_dark) $i;
+  color: dark-light-choose($title_light, $title_dark) !important;
 }
 
-//title inside class element
+// title inside class element
 .hljs-class .hljs-title,
 .haskell .hljs-type,
 .vhdl .hljs-literal,
 .tex .hljs-command {
-  color: dark-light-choose($class_title_light, $class_title_dark) $i;
+  color: dark-light-choose($class_title_light, $class_title_dark) !important;
 }
 
 .hljs-tag,
 .hljs-tag .hljs-title,
 .django .hljs-tag .hljs-keyword {
-  color: dark-light-choose($tag_light, $tag_dark) $i;
+  color: dark-light-choose($tag_light, $tag_dark) !important;
 }
 
 .hljs-attribute,
 .css .hljs-keyword,
 .hljs-variable,
 .lisp .hljs-body {
-  color: dark-light-choose($attribute_light, $attribute_dark) $i;
+  color: dark-light-choose($attribute_light, $attribute_dark) !important;
 }
 
 .hljs-regexp {
@@ -77,7 +75,7 @@ pre {
 .lisp .hljs-keyword,
 .tex .hljs-special,
 .hljs-prompt {
-  color: dark-light-choose($symbol_light, $symbol_dark) $i;
+  color: dark-light-choose($symbol_light, $symbol_dark) !important;
 }
 
 .hljs-built_in,
@@ -106,9 +104,11 @@ pre {
 p > code,
 li > code,
 pre > code {
-  color: dark-light-choose($code_light, $code_dark) $i;
-  background: dark-light-choose($code_background_light, $code_background_dark)
-    $i;
+  color: dark-light-choose($code_light, $code_dark) !important;
+  background: dark-light-choose(
+    $code_background_light,
+    $code_background_dark
+  ) !important;
 }
 
 // --------------------------------------------------------------- //
